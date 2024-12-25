@@ -1,10 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
+
   nav {
     background-color: #333;
     color: white;
@@ -27,11 +22,15 @@ body {
     text-decoration: none;
   }
   
-  .container {
-    padding: 20px;
+  
+  
+  .parallax {
+    background-image: url('./assets/parallax-background.jpg'), url('./assets/parallax-background-2.jpg'); /* Your background image */
+    background-size: cover; /* Ensures the image covers the whole area */
+    background-position: center; /* Centers the image */
+    background-repeat: repeat-y; /* Repeats the image vertically as you scroll down */
+    min-height: 100vh; /* Initial height of the section */
+    width: 100%; /* Full width */
   }
   
-  h1, h2 {
-    color: #333;
-  }
   
